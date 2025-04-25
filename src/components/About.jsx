@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="py-4 border-b border-[#00ffff]">
+    <section id="about" className="py-4 border-b border-[#ff00ff]">
       <h2 className="text-3xl font-bold text-[#ff00ff] mb-4">About</h2>
       <p className="text-lg text-[#f8f8f8] mb-4">Welcome to my digital CV!</p>
       <p className="text-lg text-[#f8f8f8] mb-4">
@@ -11,7 +11,7 @@ export default function About() {
           href="https://www.springboard.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#00ee00] underline"
+          className="text-[#ffff00] underline"
         >
           Springboard
         </a>
@@ -21,7 +21,7 @@ export default function About() {
           href="https://www.eku.edu/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#00ee00] underline"
+          className="text-[#ffff00] underline"
         >
           Eastern Kentucky University
         </a>
