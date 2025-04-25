@@ -11,7 +11,7 @@ export default function About() {
           href="https://www.springboard.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#ffff00] underline"
+          className="text-[#00ffff] hover:underline"
         >
           Springboard
         </a>
@@ -21,7 +21,7 @@ export default function About() {
           href="https://www.eku.edu/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#ffff00] underline"
+          className="text-[#00ffff] hover:underline"
         >
           Eastern Kentucky University
         </a>
