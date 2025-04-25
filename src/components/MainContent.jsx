@@ -7,7 +7,7 @@ import Contact from "./Contact";
 
 export default function MainContent() {
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8 text-[#f8f8f8]">
+    <main className="mx-auto max-w-7xl px-4 py-4 text-[#f8f8f8]">
       <About />
       <Skills />
       <Experience />

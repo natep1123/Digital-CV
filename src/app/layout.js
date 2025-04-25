@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Digital CV",
-  description: "Digital CV for Nate Perry, Software Sngineer.",
+  description: "Digital CV for Nathaniel Perry, Software Engineer.",
 };
 
 export default function RootLayout({ children }) {

@@ -36,7 +36,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-8 border-b border-[#00ffff]">
+    <section id="contact" className="py-4 border-b border-[#00ffff]">
       <h2 className="text-3xl font-bold text-[#00ffff] mb-4">Contact</h2>
       <form
         onSubmit={handleSubmit}
