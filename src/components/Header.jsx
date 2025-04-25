@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+//import styles from "./Header.module.css";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,16 +22,11 @@ export default function Header() {
           />
           <div>
             <h1 className="text-xl font-bold md:text-2xl">
-              <Link
-                href="/"
-                className="text-[#ff00ff] hover:text-[#f8f8f8] transition-colors duration-200"
-              >
+              <Link href="/" className="text-[#ff00ff]">
                 Nate Perry
               </Link>
             </h1>
-            <p className="text-[#00ff00] text-sm md:text-base">
-              Software Engineer
-            </p>
+            <p className="text-sm md:text-base">Software Engineer</p>
           </div>
         </div>
 
@@ -81,7 +77,7 @@ export default function Header() {
               <Link
                 key={section}
                 href={`#${section.toLowerCase()}`}
-                className="text-[#ffff00] hover:text-[#f8f8f8] transition-colors duration-200 text-base font-['Press Start 2P', monospace]"
+                className="text-[#ffff00] hover:text-[#f8f8f8] transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 {section}

@@ -53,7 +53,7 @@ export default function Contact() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-3 py-2 bg-[#1f2937] text-[#00ff00] border border-[#ff00ff] focus:outline-none focus:border-[#00ffff] text-base font-['Press Start 2P', monospace]"
+            className="w-full px-3 py-2 bg-[#1f2937] text-[#f8f8f8] border border-[#ff00ff] focus:outline-none focus:border-[#00ffff]"
             placeholder="Your Name"
           />
         </div>
@@ -68,7 +68,7 @@ export default function Contact() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-3 py-2 bg-[#1f2937] text-[#00ff00] border border-[#ff00ff] focus:outline-none focus:border-[#00ffff] text-base font-['Press Start 2P', monospace]"
+            className="w-full px-3 py-2 bg-[#1f2937] text-[#f8f8f8] border border-[#ff00ff] focus:outline-none focus:border-[#00ffff]"
             placeholder="your.email@example.com"
           />
         </div>
@@ -86,14 +86,14 @@ export default function Contact() {
             onChange={handleChange}
             required
             rows="5"
-            className="w-full px-3 py-2 bg-[#1f2937] text-[#00ff00] border border-[#ff00ff] focus:outline-none focus:border-[#00ffff] text-base font-['Press Start 2P', monospace]"
+            className="w-full px-3 py-2 bg-[#1f2937] text-[#f8f8f8] border border-[#ff00ff] focus:outline-none focus:border-[#00ffff]"
             placeholder="Your message here..."
           ></textarea>
         </div>
         <button
           type="submit"
           disabled={isLoading}
-          className={`px-4 py-2 bg-[#ff00ff] text-[#111827] border border:hover-[#ff00ff] hover:bg-[#00ffff] hover:text-[#111827] transition-colors duration-200 text-base cursor-pointer ${
+          className={`px-4 py-2 bg-[#ff00ff] text-[#111827] border border:hover-[#f8f8f8] hover:bg-[#00ffff] hover:text-[#f8f8f8] transition-colors duration-200  cursor-pointer ${
             isLoading ? "opacity-50 cursor-not-allowed" : ""
           }`}
         >
@@ -101,9 +101,9 @@ export default function Contact() {
         </button>
         {status.message && (
           <p
-            className={`text-base ${
+            className={`${
               status.isError ? "text-[#ff00ff]" : "text-[#00ff00]"
-            } font-['Press Start 2P', monospace]`}
+            }`}
           >
             {status.message}
           </p>

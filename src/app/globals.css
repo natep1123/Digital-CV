@@ -26,12 +26,11 @@ body {
 }
 
 /* Add hover effects for links and buttons */
-a,
 button {
   transition: background-color 0.1s ease, color 0.1s ease;
+  transition: color 0.1s ease, color 0.1s ease;
 }
 
-a:hover,
 button:hover {
   background-color: var(--hover-background);
   color: var(--hover-foreground);
