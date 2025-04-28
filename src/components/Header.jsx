@@ -64,7 +64,7 @@ export default function Header() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <nav className="md:hidden bg-[#1f2937] absolute top-full left-0 w-full z-10">
+        <nav className="md:hidden bg-[#1f2937] absolute top-full left-0 w-full z-10 border-b border-[#f8f8f8]">
           <div className="flex flex-col gap-2 px-4 py-4">
             {[
               "About",
