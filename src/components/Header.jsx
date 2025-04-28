@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-[#1f2937] sticky top-0 z-10 py-4">
+    <header className="bg-[#1f2937] border-b border-[#f8f8f8] sticky top-0 z-10 py-4">
       <div className="mx-auto max-w-7xl px-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img
