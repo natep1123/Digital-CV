@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     title: "Cipher Encrypt",
-    githubRepo: "https://github.com/natep1123/project-two",
+    githubRepo: null,
     deploymentLink: "https://cipher-encrypt.vercel.app/",
     techStack: ["JavaScript", "HTML", "CSS"],
     summary:

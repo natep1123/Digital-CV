@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <section id="about" className="py-4 border-b border-[#ff00ff]">
+    <section
+      id="about"
+      className="py-4 border-b border-[#00ffff] px-4 sm:px-6 lg:px-8"
+    >
       <h2 className="text-3xl font-bold text-[#ff00ff] mb-4">About</h2>
       <p className="text-lg text-[#f8f8f8] mb-4">Welcome to my digital CV!</p>
       <p className="text-lg text-[#f8f8f8] mb-4">

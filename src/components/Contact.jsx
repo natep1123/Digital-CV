@@ -36,8 +36,11 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-4 border-b border-[#00ffff]">
-      <h2 className="text-3xl font-bold text-[#00ffff] mb-4">Contact</h2>
+    <section
+      id="contact"
+      className="py-4 border-b border-[#00ffff] px-4 sm:px-6 lg:px-8"
+    >
+      <h2 className="text-3xl font-bold text-[#ff00ff] mb-4">Contact</h2>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col gap-4 max-w-md mx-auto"

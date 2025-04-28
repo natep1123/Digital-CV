@@ -7,10 +7,8 @@ export default function Projects() {
       className="py-8 border-b border-[#00ffff] bg-gray-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-[#ff00ff] mb-8 text-center">
-          Projects
-        </h2>
-        <span className="text-sm text-center text-gray-400 mb-4 block">
+        <h2 className="text-3xl font-bold text-[#ff00ff] mb-4">Projects</h2>
+        <span className="text-sm text-gray-400 mb-4 block">
           View my Portfolio here:{" "}
           <a
             href="https://github.com/natep1123/Portfolio"
@@ -23,7 +21,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-700"
+              className="bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-700"
             >
               <h3 className="text-xl font-semibold text-white mb-2">
                 {project.title}
