@@ -6,7 +6,7 @@ export default function Education() {
       date: "Very soon",
       details: [
         "Completed 800+ hours of intensive learning, including 400+ hours of hands-on project building.",
-        "Developed capstone and portfolio projects showcasing expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+        "Developed capstone and portfolio projects showcasing expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) + Next.js.",
         "Mastered full-stack development through real-world applications, focusing on scalable APIs and responsive frontends.",
       ],
     },
@@ -16,7 +16,7 @@ export default function Education() {
       date: "May 2024",
       details: [
         "Completed a senior internship at Lilley Cornett Woods, designing and constructing a bridge to improve accessibility for a research trail as a capstone project.",
-        "Gained skills in project planning, stakeholder collaboration, and practical problem-solving in outdoor environments.",
+        "Gained skills in project planning, collaboration, and practical problem-solving in outdoor environments.",
       ],
     },
   ];
