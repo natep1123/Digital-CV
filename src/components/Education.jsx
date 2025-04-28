@@ -39,7 +39,9 @@ export default function Education() {
               <p className="text-gray-400 text-sm mb-4">{edu.date}</p>
               <ul className="list-disc list-inside text-gray-300 text-sm">
                 {edu.details.map((detail, detailIndex) => (
-                  <li key={detailIndex}>{detail}</li>
+                  <li key={detailIndex} className="mb-2">
+                    {detail}
+                  </li>
                 ))}
               </ul>
             </div>
