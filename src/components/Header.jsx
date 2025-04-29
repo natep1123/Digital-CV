@@ -14,21 +14,21 @@ export default function Header() {
   return (
     <header className="bg-[#1f2937] border-b border-[#f8f8f8] sticky top-0 z-10 py-4">
       <div className="mx-auto max-w-7xl px-4 flex justify-between items-center">
-        <div className="flex items-center gap-3">
-          <img
-            src="github-profile.png"
-            alt="Profile Picture"
-            className="h-12 w-12 rounded-full object-cover md:h-17 md:w-17"
-          />
-          <div>
-            <h1 className="text-xl font-bold md:text-2xl">
-              <Link href="/" className="text-[#ff00ff]">
+        <Link href="/">
+          <div className="flex items-center gap-3">
+            <img
+              src="github-profile.png"
+              alt="Profile Picture"
+              className="h-12 w-12 rounded-full object-cover md:h-17 md:w-17"
+            />
+            <div>
+              <h1 className="text-xl font-bold md:text-2xl text-[#ff00ff]">
                 Nate Perry
-              </Link>
-            </h1>
-            <p className="text-sm md:text-base">Software Engineer</p>
+              </h1>
+              <p className="text-sm md:text-base">Software Engineer</p>
+            </div>
           </div>
-        </div>
+        </Link>
 
         {/* Hamburger Menu for Mobile */}
         <button

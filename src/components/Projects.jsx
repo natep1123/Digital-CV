@@ -40,32 +40,35 @@ export default function Projects() {
                   ))}
                 </ul>
               </div>
-              <ul>
-                {project.githubRepo ? (
-                  <li>
-                    <a
-                      href={project.githubRepo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[#00ffff] hover:underline text-sm"
-                    >
-                      GitHub
-                    </a>
-                  </li>
-                ) : null}
-                {project.deploymentLink ? (
-                  <li>
-                    <a
-                      href={project.deploymentLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[#00ffff] hover:underline text-sm"
-                    >
-                      {project.deploymentLink}
-                    </a>
-                  </li>
-                ) : null}
-              </ul>
+              <div>
+                <h4 className="text-sm font-semibold ">Check It Out:</h4>
+                <ul>
+                  {project.githubRepo ? (
+                    <li>
+                      <a
+                        href={project.githubRepo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#00ffff] hover:underline text-sm"
+                      >
+                        GitHub
+                      </a>
+                    </li>
+                  ) : null}
+                  {project.deploymentLink ? (
+                    <li>
+                      <a
+                        href={project.deploymentLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#00ffff] hover:underline text-sm"
+                      >
+                        {project.deploymentLink}
+                      </a>
+                    </li>
+                  ) : null}
+                </ul>
+              </div>
             </div>
           ))}
         </div>
