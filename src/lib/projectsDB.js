@@ -41,6 +41,6 @@ export const projects = [
     deploymentLink: "https://jeopardy-wheat.vercel.app/",
     techStack: ["JavaScript", "HTML", "CSS"],
     summary:
-      "An interactive interface for a Jeopardy gameboard using the Jeopardy API.",
+      "An interactive interface for a Jeopardy gameboard using the Jeopardy API to fetch questions. The app features a responsive design and allows users to click on the board for questions, and again for answers.",
   },
 ];
