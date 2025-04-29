@@ -15,7 +15,8 @@ export default function Education() {
       credential: "Bachelor of Science in Parks and Recreation",
       date: "May 2024",
       details: [
-        "Completed a senior internship at Lilley Cornett Woods, designing and constructing a bridge to improve accessibility for a research trail as a capstone project.",
+        "Completed a senior internship at Lilley Cornett Woods, an Appalachian Old Growth Forest in Letcher County, KY, during summer of 2024.",
+        "Designed and constructed a bridge to improve accessibility for a research trail as a capstone project.",
         "Gained skills in project planning, collaboration, and practical problem-solving in outdoor environments.",
       ],
     },
