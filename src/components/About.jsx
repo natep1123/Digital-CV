@@ -6,7 +6,7 @@ export default function About() {
     >
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-[#ff00ff] mb-8">About</h2>
-        <div className="bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-700">
+        <div className="bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-700">
           <p className="text-[#f8f8f8] text-lg mb-4">
             Welcome to my digital CV!
           </p>

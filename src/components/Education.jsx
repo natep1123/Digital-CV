@@ -33,7 +33,7 @@ export default function Education() {
           {education.map((edu, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-700"
+              className="bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-700"
             >
               <h3 className="text-xl font-semibold mb-2">{edu.institution}</h3>
               <p className="text-sm mb-1">{edu.credential}</p>
