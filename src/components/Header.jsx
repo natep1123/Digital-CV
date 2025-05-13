@@ -32,7 +32,7 @@ export default function Header() {
 
         {/* Hamburger Menu for Mobile */}
         <button
-          className="md:hidden flex flex-col gap-1.5 p-2"
+          className="md:hidden flex flex-col gap-1.5 p-2 cursor-pointer"
           onClick={toggleMenu}
           aria-label="Toggle navigation"
         >
@@ -54,7 +54,7 @@ export default function Header() {
             <Link
               key={section}
               href={`#${section.toLowerCase()}`}
-              className="text-[#ffff00] hover:text-[#f8f8f8] transition-colors duration-200"
+              className="text-[#ffff00]"
             >
               {section}
             </Link>
@@ -77,7 +77,7 @@ export default function Header() {
               <Link
                 key={section}
                 href={`#${section.toLowerCase()}`}
-                className="text-[#ffff00] hover:text-[#f8f8f8] transition-colors duration-200"
+                className="text-[#ffff00]"
                 onClick={() => setIsOpen(false)}
               >
                 {section}
