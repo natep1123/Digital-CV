@@ -17,7 +17,7 @@ export default function Header() {
         <Link href="/">
           <div className="flex items-center gap-3">
             <img
-              src="github-profile.png"
+              src="CV-logo.png"
               alt="Profile Picture"
               className="h-12 w-12 rounded-full object-cover md:h-17 md:w-17"
             />
