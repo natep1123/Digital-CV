@@ -11,6 +11,24 @@ const projectSchema = {
 
 export const projects = [
   {
+    title: "Card-io",
+    githubRepo: "https://github.com/natep1123/card-io",
+    deploymentLink: "https://card-io-np.vercel.app/",
+    techStack: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Tailwind CSS",
+      "NextAuth",
+      "Axios",
+      "Chart.js",
+    ],
+    summary:
+      "A workout generator using the Deck of Cards API to create randomized full-body workout challenges. Includes scalable difficulty based on deck size and a multiplier, stat tracking, user authentication for saving stats, and data visualization for tracking progress over time.",
+  },
+  {
     title: "BounceBack!",
     githubRepo: "https://github.com/natep1123/bounceback",
     deploymentLink: "https://bounceback-zeta.vercel.app/",

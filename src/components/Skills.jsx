@@ -2,7 +2,7 @@ export default function Skills() {
   const skills = [
     {
       category: "Languages",
-      items: ["JavaScript (ES6+)", "SQL"],
+      items: ["JavaScript (ES6+)", "TypeScript", "SQL"],
     },
     {
       category: "Frontend",
@@ -25,8 +25,8 @@ export default function Skills() {
       items: ["Jest", "Mocha/Chai"],
     },
     {
-      category: "Currently Working On",
-      items: ["Intermediate/Advanced Next.js"],
+      category: "What I Want to Learn",
+      items: ["React Native", "Python", "Django", "Docker"],
     },
   ];
 
