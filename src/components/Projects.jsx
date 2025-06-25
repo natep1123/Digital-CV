@@ -12,6 +12,8 @@ export default function Projects() {
           View my Portfolio here:{" "}
           <a
             href="https://github.com/natep1123/Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-[#00ffff] hover:underline"
           >
             Portfolio
