@@ -43,7 +43,7 @@ export const projects = [
       "Axios",
     ],
     summary:
-      "A single-player full-stack app and twist on the classic game of Pong, where you play against yourself to keep the ball bouncing. The game features a scoring system and a leaderboard to track high scores.",
+      "A single-player full-stack app and twist on the classic game of Pong, where you play against yourself to keep the ball bouncing. The game features a scoring system, scaling velocity, user authentication for score saving, guest mode, guest promotion to user for continuity of scores and a global leaderboard for comparing scores across all users.",
   },
   {
     title: "Cipher Encrypt",

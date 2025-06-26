@@ -25,7 +25,7 @@ export default function Skills() {
       items: ["Jest", "Mocha/Chai"],
     },
     {
-      category: "Working On",
+      category: "Next Steps",
       items: [
         "React Native",
         "Python",
