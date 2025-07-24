@@ -26,7 +26,8 @@ export default function About() {
             </a>
             's Software Engineering Career Track, where I honed my skills in the
             MERN stack and Next.js. My tech skills are complemented by a B.S. in
-            Parks and Recreation, Natural Resource Management from{" "}
+            Parks, Recreation, Exercise and Sports Science (concetration in
+            Natural Resource Management) from{" "}
             <a
               href="https://www.eku.edu/"
               target="_blank"

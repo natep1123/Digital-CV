@@ -63,7 +63,7 @@ export default function Projects() {
                         href={project.deploymentLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-[#00ffff] hover:underline text-sm"
+                        className="text-[#00ffff] hover:underline text-sm truncate block max-w-full"
                       >
                         {project.deploymentLink}
                       </a>

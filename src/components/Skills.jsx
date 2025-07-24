@@ -18,14 +18,14 @@ export default function Skills() {
     },
     {
       category: "Tools",
-      items: ["Git", "GitHub", "Postman", "NextAuth", "Axios"],
+      items: ["Git", "GitHub", "Postman", "NextAuth", "Axios", "n8n"],
     },
     {
       category: "Testing",
       items: ["Jest", "Mocha/Chai"],
     },
     {
-      category: "Next Steps",
+      category: "What Do I Want to Learn?",
       items: [
         "React Native",
         "Python",

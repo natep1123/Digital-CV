@@ -3,7 +3,7 @@ export default function Education() {
     {
       institution: "Springboard Software Engineering Career Track",
       credential: "Certificate of Completion",
-      date: "Very soon",
+      date: "August 2025",
       details: [
         "Completed 800+ hours of intensive learning, including 400+ hours of hands-on project building.",
         "Developed capstone and portfolio projects showcasing expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) + Next.js.",
@@ -12,7 +12,7 @@ export default function Education() {
     },
     {
       institution: "Eastern Kentucky University",
-      credential: "Bachelor of Science in Parks and Recreation",
+      credential: "B.S. in Parks, Recreation, Exercise and Sports Science",
       date: "May 2024",
       details: [
         "Completed a senior internship at Lilley Cornett Woods, an Appalachian Old Growth Forest in Letcher County, KY, during summer of 2024.",
