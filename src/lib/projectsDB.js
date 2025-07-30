@@ -16,7 +16,7 @@ export const projects = [
     deploymentLink: "https://www.youtube.com/@NoSleep.Appalachia/shorts",
     techStack: [
       "n8n",
-      "Anthropic Claude Sonnet 4",
+      "Claude Sonnet 4",
       "ElevenLabs",
       "Creatomate",
       "Blotato",
