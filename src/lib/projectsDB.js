@@ -47,12 +47,18 @@ export const projects = [
       "A single-player full-stack app and twist on the classic game of Pong, where you play against yourself to keep the ball bouncing. The game features a scoring system, scaling velocity, user authentication for score saving, guest mode, guest promotion to user for continuity of scores and a global leaderboard for comparing scores across all users.",
   },
   {
-    title: " Content Automation Workflow",
+    title: "NoSleep Appalachia: Appalachian Horror Engine",
     githubRepo: null,
     deploymentLink: "https://www.youtube.com/@NoSleep.Appalachia/shorts",
-    techStack: ["n8n", "OpenAI", "ElevenLabs", "Creatomate", "Blotato"],
+    techStack: [
+      "n8n",
+      "Anthropic Claude Sonnet 4",
+      "ElevenLabs",
+      "Creatomate",
+      "Blotato",
+    ],
     summary:
-      "An automated workflow using n8n to create and post short-form horror content for Instagram Reels, TikTok, and YouTube Shorts. Leverages OpenAI for script generation, ElevenLabs for voiceovers, Creatomate for video rendering, and Blotato for multi-platform posting, streamlining content creation and distribution.",
+      "A systematic horror anthology generator that produces authentic Appalachian horror content through combinatorial storytelling. Built using a custom relational database of narrative elements creating 4.4+ million unique story combinations. n8n orchestrates the complete automation pipeline from AI story generation to multi-platform distribution, posting 3 unique horror stories daily across Instagram Reels, TikTok, and YouTube Shorts while maintaining cultural authenticity through algorithmic narrative construction.",
   },
   {
     title: "Cipher Encrypt",
