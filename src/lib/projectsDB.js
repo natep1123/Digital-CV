@@ -11,6 +11,20 @@ const projectSchema = {
 
 export const projects = [
   {
+    title: "NoSleep Appalachia: Appalachian Horror Engine",
+    githubRepo: null,
+    deploymentLink: "https://www.youtube.com/@NoSleep.Appalachia/shorts",
+    techStack: [
+      "n8n",
+      "Anthropic Claude Sonnet 4",
+      "ElevenLabs",
+      "Creatomate",
+      "Blotato",
+    ],
+    summary:
+      "A systematic horror anthology generator that produces authentic Appalachian horror content through combinatorial storytelling. Built using a custom relational database of narrative elements creating 4.4+ million unique story combinations. n8n orchestrates the complete automation pipeline from AI story generation to multi-platform distribution, posting 3 unique horror stories daily across Instagram Reels, TikTok, and YouTube Shorts while maintaining cultural authenticity through algorithmic narrative construction.",
+  },
+  {
     title: "Card-io",
     githubRepo: "https://github.com/natep1123/card-io",
     deploymentLink: "https://card-io-np.vercel.app/",
@@ -45,20 +59,6 @@ export const projects = [
     ],
     summary:
       "A single-player full-stack app and twist on the classic game of Pong, where you play against yourself to keep the ball bouncing. The game features a scoring system, scaling velocity, user authentication for score saving, guest mode, guest promotion to user for continuity of scores and a global leaderboard for comparing scores across all users.",
-  },
-  {
-    title: "NoSleep Appalachia: Appalachian Horror Engine",
-    githubRepo: null,
-    deploymentLink: "https://www.youtube.com/@NoSleep.Appalachia/shorts",
-    techStack: [
-      "n8n",
-      "Anthropic Claude Sonnet 4",
-      "ElevenLabs",
-      "Creatomate",
-      "Blotato",
-    ],
-    summary:
-      "A systematic horror anthology generator that produces authentic Appalachian horror content through combinatorial storytelling. Built using a custom relational database of narrative elements creating 4.4+ million unique story combinations. n8n orchestrates the complete automation pipeline from AI story generation to multi-platform distribution, posting 3 unique horror stories daily across Instagram Reels, TikTok, and YouTube Shorts while maintaining cultural authenticity through algorithmic narrative construction.",
   },
   {
     title: "Cipher Encrypt",
