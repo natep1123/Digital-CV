@@ -14,8 +14,9 @@ export default function About() {
             Welcome to my digital CV!
           </p>
           <p className="text-gray-300 text-lg mb-4">
-            I'm a passionate Software Engineer with a knack for crafting dynamic
-            web applications. My expertise stems from a certificate from{" "}
+            I'm a passionate Software Engineer and automation specialist with
+            expertise in the MERN stack, Next.js, and systematic workflow
+            design. My technical foundation comes from{" "}
             <a
               href="https://www.springboard.com/"
               target="_blank"
@@ -24,10 +25,8 @@ export default function About() {
             >
               Springboard
             </a>
-            's Software Engineering Career Track, where I honed my skills in the
-            MERN stack and Next.js. My tech skills are complemented by a B.S. in
-            Parks, Recreation, Exercise and Sports Science (concetration in
-            Natural Resource Management) from{" "}
+            's Software Engineering Career Track, complemented by a B.S. in
+            Parks, Recreation, Exercise and Sports Science from{" "}
             <a
               href="https://www.eku.edu/"
               target="_blank"
@@ -39,16 +38,26 @@ export default function About() {
             .
           </p>
           <p className="text-gray-300 text-lg mb-4">
-            I have a diverse skillset and broad experiences to draw from. I
-            thrive on building user-friendly interfaces and writing clean,
-            efficient code. My journey in tech has been an exciting adventure,
-            and I'm always eager to embrace new challenges and expand my skill
-            set.
+            Beyond traditional development, I've pioneered innovative approaches
+            to content automation, including building complex n8n workflows that
+            combine AI-powered narrative generation with multi-platform
+            distribution systems. I specialize in creating systematic solutions
+            for creative challenges, transforming manual processes into
+            scalable, automated pipelines.
           </p>
           <p className="text-gray-300 text-lg mb-4">
-            When I'm not coding, you can find me hiking with my dog, diving into
-            a good book, writing, or simply soaking in the beauty of the
-            outdoors.
+            My diverse background spans software engineering, workflow
+            automation, and creative writing. I'm a published poet with a deep
+            appreciation for storytelling, which uniquely positions me to bridge
+            technical automation with authentic creative expression. This
+            combination allows me to build systems that maintain artistic
+            integrity while achieving unprecedented scale.
+          </p>
+          <p className="text-gray-300 text-lg mb-4">
+            When I'm not coding or designing automation workflows, you can find
+            me hiking with my dog, diving into a good book, writing poetry,
+            exploring the intersection of technology and creativity or soaking
+            in the beauty of the great outdoors.
           </p>
           <FunFact />
           <Connect />
