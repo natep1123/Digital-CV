@@ -22,7 +22,7 @@ export const projects = [
       "Blotato",
     ],
     summary:
-      "A systematic horror anthology generator that produces authentic Appalachian horror content through combinatorial storytelling. Built using a custom relational database of narrative elements creating 4.4+ million unique story combinations. n8n orchestrates the complete automation pipeline from AI story generation to multi-platform distribution, posting 3 unique horror stories daily across Instagram Reels, TikTok, and YouTube Shorts while maintaining cultural authenticity through algorithmic narrative construction.",
+      "A systematic horror anthology generator that produces authentic Appalachian horror content through combinatorial storytelling. Built using a custom relational database of narrative elements creating 7.7+ million unique story combinations. n8n orchestrates the complete automation pipeline from AI story generation to multi-platform distribution, posting 3 unique horror stories daily across Instagram Reels, TikTok, and YouTube Shorts while maintaining cultural authenticity through algorithmic narrative construction.",
   },
   {
     title: "Card-io",
